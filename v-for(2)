@@ -1,0 +1,19 @@
+<div id="app">
+    <ul>
+    <li v-for="user in users"><p>Имя: {{user.name}}</p>
+                            <p>Возраст: {{user.age}}</p></li>
+    </ul>
+</div>
+<script src="https://unpkg.com/vue"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            users: [
+                    {name:'Tom', age:22}, 
+                    {name:'Bob', age:31}, 
+                    {name: 'Sam', age:28}
+            ]
+        }
+    });
+</script>
