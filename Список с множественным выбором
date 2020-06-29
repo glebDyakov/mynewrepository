@@ -1,0 +1,18 @@
+<div id="app">
+    <select v-model="users" multiple>
+        <option>Tom</option>
+        <option>Bob</option>
+        <option>Sam</option>
+        <option>Alice</option>
+    </select>
+    <span>Выбрано: {{users}}</span>
+</div>
+<script src="https://unpkg.com/vue"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            users:[]
+        }
+    });
+</script>
