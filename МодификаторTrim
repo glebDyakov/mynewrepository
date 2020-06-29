@@ -1,0 +1,13 @@
+<div id="app">
+    <input v-model.trim="message">
+    <span>Введено: {{message}}</span>
+</div>
+<script src="https://unpkg.com/vue"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: ''
+        }
+    });
+</script>
