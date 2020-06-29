@@ -1,0 +1,2 @@
+<input v-model.lazy.trim="message">
+<input v-model.lazy.number="age" type="number">
