@@ -1,0 +1,14 @@
+var comp = {
+    template:'<div><h2>{{header}}</h2></div>',
+    data: function(){
+        return {
+            header: 'Counter Program'
+        }
+    }
+};
+new Vue({
+    el: "#app",
+    components:{
+        'counter':comp
+    }
+});
