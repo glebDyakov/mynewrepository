@@ -1,0 +1,4 @@
+Vue.filter(название_фильтра, function (oldValue) { 
+    // преобразование из oldValue в newValue
+    return newValue 
+})
